@@ -52,13 +52,13 @@ endef
 define Device/tplink-8m
   $(Device/tplink-nolzma)
   TPLINK_FLASHLAYOUT := 8M
-  IMAGE_SIZE := 8000k
+  IMAGE_SIZE := 8192k
 endef
 
 define Device/tplink-8mlzma
   $(Device/tplink-v1)
   TPLINK_FLASHLAYOUT := 8Mlzma
-  IMAGE_SIZE := 8000k
+  IMAGE_SIZE := 8192k
 endef
 
 define Device/tplink-16mlzma
